@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>The Hut</title>
+
+   <!-- favicon
+	================================================== -->
+
+   <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+
+   <!-- fonts
+================================================== -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+   <!-- js, css
+================================================== -->
+
+   <script src="js/jquery-3.5.1.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+      <div class="button-up" id="button-up">
+         <img src="img/header/up-chevron.svg" height="20px" alt="">
+      </div>
+
+      <header class="header">
+   <div class="header__logo">
+      <a href="index.html"><img src="img/header/logo.svg" alt=""></a>
+   </div>
+   <nav class="header__nav">
+         <a href="index.html" class="header__nav-link">Home</a>
+         <a href="hut.html" class="header__nav-link">The hut</a>
+         <a href="area.html" class="header__nav-link">The area</a>
+         <a href="booking.html" class="header__nav-link">Booking</a>
+         <a href="about.html" class="header__nav-link">About us</a>
+         <a href="faq.html" class="header__nav-link">FAQ</a>
+   </nav>
+   <button class="btn header__btn" onclick="location.href='booking.html'">Book now</button>
+   <div class="header__burger">
+      <span></span>
+   </div>
+</header>
+
+      <div class="wrapper">
+         <main>
+           <section class="intro-min intro-min--hut">
+              <div class="container">
+               <h2 class="intro-min__title">The Hut</h2>
+              </div>
+           </section>
+
+           <section class="info outside">
+              <div class="container">
+                 <div class="info__inner">
+                    <div class="info__column info__column--slider">
+                       <div class="info__slider" id="outside-slider">
+                          <div class="slider__item">
+                             <img src="img/outside/1.jpg" alt="">
+                          </div>
+                          <div class="slider__item">
+                           <img src="img/outside/2.jpg" alt="">
+                           </div>
+                           <div class="slider__item">
+                              <img src="img/outside/3.jpg" alt="">
+                           </div>
+                           <div class="slider__item">
+                              <img src="img/outside/4.jpg" alt="">
+                           </div>
+                           <!-- <div class="slider__item">
+                              <img src="img/outside/5.jpg" alt="">
+                           </div> -->
+                       </div>
+                       <div class="slides-amount">
+                           <div class="current-slide">01</div>
+                           <div class="total-slide" id="total-slide">04</div>
+                       </div>
+                    </div>
+                    <div class="info__column info__column--text">
+                       <div class="info__title title">The Outside</div>
+                       <div class="info__filter">
+                          <a href="" class="info__filter-link active">Hot tube</a>
+                          <a href="" class="info__filter-link">Electric car change</a>
+                       </div>
+                       <p class="info__text text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground.</p>
+                    </div>
+                 </div>
+              </div>
+           </section>
+
+           <section class="info inside">
+            <div class="container">
+               <div class="info__inner">
+                  <div class="info__column info__column--text info__column--text--left">
+                     <div class="info__title title">The Inside</div>
+                     <div class="info__filter">
+                        <a href="" class="info__filter-link active">Space</a>
+                        <a href="" class="info__filter-link">Kitchen</a>
+                        <a href="" class="info__filter-link">Bathroom</a>
+                     </div>
+                     <p class="info__text text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground.</p>
+                  </div>
+                  <div class="info__column info__column--slider">
+                     <div class="info__slider" id="inside-slider">
+                        <div class="slider__item">
+                           <img src="img/inside/1.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                         <img src="img/inside/2.jpg" alt="">
+                         </div>
+                         <!-- <div class="slider__item">
+                            <img src="img/inside/3.jpg" alt="">
+                         </div>
+                         <div class="slider__item">
+                            <img src="img/inside/4.jpg" alt="">
+                         </div> -->
+                         <!-- <div class="slider__item">
+                            <img src="img/inside/5.jpg" alt="">
+                         </div> -->
+                     </div>
+                     <div class="slides-amount">
+                         <div class="current-slide">01</div>
+                         <div class="total-slide" id="total-slide">02</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="info practicalities">
+            <div class="container">
+               <div class="info__inner">
+                  <div class="info__column info__column--slider">
+                     <div class="info__slider" id="practicalities-slider">
+                        <div class="slider__item">
+                           <img src="img/practicalities/1.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                         <img src="img/practicalities/2.jpg" alt="">
+                         </div>
+                         <!-- <div class="slider__item">
+                            <img src="img/practicalities/3.jpg" alt="">
+                         </div>
+                         <div class="slider__item">
+                            <img src="img/practicalities/4.jpg" alt="">
+                         </div> -->
+                         <!-- <div class="slider__item">
+                            <img src="img/practicalities/5.jpg" alt="">
+                         </div> -->
+                     </div>
+                     <div class="slides-amount">
+                         <div class="current-slide">01</div>
+                         <div class="total-slide" id="total-slide">02</div>
+                     </div>
+                  </div>
+                  <div class="info__column info__column--text">
+                     <div class="info__title title">Practicalities</div>
+                     <div class="info__filter">
+                        <a href="" class="info__filter-link active">Breakfast</a>
+                        <a href="" class="info__filter-link">Classic dinner</a>
+                     </div>
+                     <p class="info__text text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         </main>
+
+          <footer class="footer">
+   <div class="container">
+      <div class="footer__inner">
+         <div class="footer__column">
+            <h4 class="footer__title">Newsletter</h4>
+            <div class="footer__form">
+               <input type="text" class="footer__input" placeholder="Email Address">
+               <button class="newsletter__btn" type="submit">
+                  <img src="img/footer/right-arrow.svg" alt="">
+               </button>
+            </div>
+            <p class="footer__text">Sign up to our newsletter for special things and receive 10% off your next order.</p>
+         </div>
+         <div class="footer__column">
+            <div class="footer__links">
+               <a href="" class="footer__link">TERMS AND CONDITIONS</a>
+               <a href="" class="footer__link">CANCELLATION POLICY</a>
+               <a href="" class="footer__link">PRIVACY POLICY</a>
+            </div>
+            <div class="footer__icons">
+               <div class="footer__icon">
+                  <img src="img/footer/1.svg" alt="">
+               </div>
+               <div class="footer__icon">
+                  <img src="img/footer/2.svg" alt="">
+               </div>
+               <div class="footer__icon">
+                  <img src="img/footer/3.svg" alt="">
+               </div>
+               <div class="footer__icon">
+                  <img src="img/footer/4.svg" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <p class="footer__copyright">© 2021 The Glass Huts</p>
+   </div>
+</footer>
+      </div> <!-- wrapper -->
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+   <script src="js/script.min.js"></script>
+</body>
+</html>

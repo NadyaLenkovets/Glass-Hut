@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Booking</title>
+
+   <!-- favicon
+	================================================== -->
+
+   <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+
+   <!-- fonts
+================================================== -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+   <!-- js, css
+================================================== -->
+
+   <script src="js/jquery-3.5.1.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+      <div class="button-up" id="button-up">
+         <img src="img/header/up-chevron.svg" height="20px" alt="">
+      </div>
+
+      <header class="header">
+   <div class="header__logo">
+      <a href="index.html"><img src="img/header/logo.svg" alt=""></a>
+   </div>
+   <nav class="header__nav">
+         <a href="index.html" class="header__nav-link">Home</a>
+         <a href="hut.html" class="header__nav-link">The hut</a>
+         <a href="area.html" class="header__nav-link">The area</a>
+         <a href="booking.html" class="header__nav-link">Booking</a>
+         <a href="about.html" class="header__nav-link">About us</a>
+         <a href="faq.html" class="header__nav-link">FAQ</a>
+   </nav>
+   <button class="btn header__btn" onclick="location.href='booking.html'">Book now</button>
+   <div class="header__burger">
+      <span></span>
+   </div>
+</header>
+
+      <div class="wrapper">
+         <main>
+            <section class="intro-min intro-min--booking">
+              <div class="container">
+                  <h2 class="intro-min__title">Booking</h2>
+                  <div class="intro-min__place">
+                     <a href="">
+                        <img src="img/intro-min/place.svg" alt="">
+                        <p class="intro-min__city">Vesterborg, Denmark</p>
+                     </a>
+                  </div>
+              </div>
+            </section>
+
+            <section class="booking">
+               <div class="container container--booking">
+                  <div class="booking__column booking__column--left">
+                     <h2 class="booking__title title">Choose Additional Services</h2>
+                     <div class="book-accordion__inner one-open">
+                        <div class="book-accordion__item">
+                           <div class="book-accordion__header">
+                              <div class="book-accordion__plus">
+                              </div>
+                              <h3 class="book-accordion__title">Fresh Breakfast for one</h3>
+                              <p class="book-accordion__caption">400kr</p>
+                              <div class="book-accordion__close"></div>
+                           </div>
+                           <p class="book-accordion__text">
+                              <span>Fresh Breakfast</span>
+                              Bread, Coffee, milk, juice, and a selection of spreads + toppings.
+                           </p>
+                        </div>
+                        <div class="book-accordion__item">
+                           <div class="book-accordion__header">
+                              <div class="book-accordion__plus">
+                              </div>
+                              <h3 class="book-accordion__title">Fresh Breakfast for two</h3>
+                              <p class="book-accordion__caption">500kr</p>
+                              <div class="book-accordion__close"></div>
+                           </div>
+                           <p class="book-accordion__text">
+                              <span>Fresh Breakfast</span>
+                              Bread, Coffee, milk, juice, and a selection of spreads + toppings.
+                           </p>
+                        </div>
+                        <div class="book-accordion__item">
+                           <div class="book-accordion__header">
+                              <div class="book-accordion__plus">
+                              </div>
+                              <h3 class="book-accordion__title">Classic Dinner for one</h3>
+                              <p class="book-accordion__caption">600kr</p>
+                              <div class="book-accordion__close"></div>
+                           </div>
+                           <p class="book-accordion__text">
+                              <span>Classic Dinner</span>
+                              Chicken soup, beef steak with vegetables, Danish Fish Pie, bread, juice, coffee.
+                           </p>
+                        </div>
+                        <div class="book-accordion__item">
+                           <div class="book-accordion__header">
+                              <div class="book-accordion__plus">
+                              </div>
+                              <h3 class="book-accordion__title">Classic Dinner for two</h3>
+                              <p class="book-accordion__caption">800kr</p>
+                              <div class="book-accordion__close"></div>
+                           </div>
+                           <p class="book-accordion__text">
+                              <span>Classic Dinner</span>
+                              Chicken soup, beef steak with vegetables, Danish Fish Pie, bread, juice, coffee.
+                           </p>
+                        </div>
+                        <div class="book-accordion__item">
+                           <div class="book-accordion__header">
+                              <div class="book-accordion__plus">
+                              </div>
+                              <h3 class="book-accordion__title">Electric Car Charge</h3>
+                              <p class="book-accordion__caption">800kr</p>
+                              <div class="book-accordion__close"></div>
+                           </div>
+                           <p class="book-accordion__text">
+                              <span>Electric Car Charge</span>
+                              You can charge your car or other electric transport on our parking lot.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="booking__info">
+                        <div class="booking__item">
+                           <h3 class="booking__item-title title">
+                              Hut rules
+                           </h3>
+                           <p class="booking__item-text text">Check-in: 2:00 PM - 11:00 PM</p>
+                           <p class="booking__item-text text">Checkout: 11:00 AM</p>
+                           <p class="booking__item-text text">Not suitable for children and infants </p>
+                           <p class="booking__item-text text">No smoking</p>
+                           <p class="booking__item-text text">No pets</p>
+                        </div>
+                        <div class="booking__item">
+                           <h3 class="booking__item-title title">
+                              Cancellation policy
+                           </h3>
+                           <p class="booking__item-text text">Free cancellation until 1:00 PM on Mar 27</p>
+                           <p class="booking__item-text text">CAfter that, cancel before 2:00 PM on Apr 1 and get a 50% refund, minus the first night and service fee.</p>
+                        </div>
+                        <div class="booking__item">
+                           <h3 class="booking__item-title title">
+                              Important Information
+                           </h3>
+                           <p class="booking__item-text text">You need to hike a steep hill to arrive at the treehouses, it takes approx 20-30 minutes on a trail with stairs and uneven ground.</p>
+                        </div>
+                        
+                     </div>
+                  </div>
+                  <div class="booking__column booking__column--right">
+                     <div class="booking__menu">
+                        <div class="price__title">
+                           <span>The Glass Hut</span> Vesterborg, Denmark
+                        </div>
+                        <div class="check-menu">
+                           <div class="check-menu__column">
+                              <div class="check-menu__item check-menu__item--checkin">
+                                 <p class="check-menu__caption">Check in</p>
+                                 <p class="check-in-date">4/25/2021</p>
+                              </div>
+                           </div>
+                           <div class="check-menu__column">
+                              <div class="check-menu__item">
+                                 <p class="check-menu__caption">Check out</p>
+                                 <p class="check-in-date">4/27/2021</p>
+                              </div>
+                           </div>
+                           <div class="check-menu__column">
+                              <div class="check-menu__item check-menu__item--guests">
+                                 <p class="check-menu__caption">Guests</p>
+                                 <div class="guests">
+                                    <button class="check-menu__minus"></button>
+                                    <p class="check-in-guests">1</p>
+                                    <button class="check-menu__plus">+</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="price-additional">
+                           <div class="price-additional__item">
+                              <p class="price-additional__name"><span class="default-price">3.200</span>kr x <span class="nights">3</span> nights</p>
+                              <p class="price-additional__price"></p>
+                           </div>
+                           <div class="price-additional__item">
+                              <p class="price-additional__name">Classic Dinner for one</p>
+                              <p class="price-additional__price">600kr</p>
+                           </div>
+                           <div class="price-additional__item">
+                              <p class="price-additional__name">Electric Car Charge</p>
+                              <p class="price-additional__price">800kr</p>
+                           </div>
+                           <div class="price-additional__item">
+                              <p class="price-additional__name">10% discount</p>
+                              <p class="price-additional__price">-200kr</p>
+                           </div>
+                        </div>
+                        <div class="price-total">
+                           <div class="price-total__name">Total</div>
+                           <div class="price-price">7.000kr</div>
+                        </div>
+                        <div class="coupon">
+                           <input type="text" class="coupon-input" placeholder="Coupon Code">
+                           <button class="btn coupon__btn">Apply</button>
+                        </div>
+                        <button class="btn booking__btn" onclick="location.href='payment.html'">Book</button>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+
+         </main>
+
+          <footer class="footer">
+   <div class="container">
+      <div class="footer__inner">
+         <div class="footer__column">
+            <h4 class="footer__title">Newsletter</h4>
+            <div class="footer__form">
+               <input type="text" class="footer__input" placeholder="Email Address">
+               <button class="newsletter__btn" type="submit">
+                  <img src="img/footer/right-arrow.svg" alt="">
+               </button>
+            </div>
+            <p class="footer__text">Sign up to our newsletter for special things and receive 10% off your next order.</p>
+         </div>
+         <div class="footer__column">
+            <div class="footer__links">
+               <a href="" class="footer__link">TERMS AND CONDITIONS</a>
+               <a href="" class="footer__link">CANCELLATION POLICY</a>
+               <a href="" class="footer__link">PRIVACY POLICY</a>
+            </div>
+            <div class="footer__icons">
+               <div class="footer__icon">
+                  <img src="img/footer/1.svg" alt="">
+               </div>
+               <div class="footer__icon">
+                  <img src="img/footer/2.svg" alt="">
+               </div>
+               <div class="footer__icon">
+                  <img src="img/footer/3.svg" alt="">
+               </div>
+               <div class="footer__icon">
+                  <img src="img/footer/4.svg" alt="">
+               </div>
+            </div>
+         </div>
+      </div>
+      <p class="footer__copyright">© 2021 The Glass Huts</p>
+   </div>
+</footer>
+      </div> <!-- wrapper -->
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+   <script src="js/script.min.js"></script>
+</body>
+</html>
